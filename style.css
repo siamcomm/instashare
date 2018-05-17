@@ -1,0 +1,71 @@
+.crunchify-link {
+    padding: 2px 8px 4px 8px !important;
+    color: white;
+    font-size: 12px;
+    border-radius: 0px;
+    margin-right: 2px;
+    cursor: pointer;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    margin-top: 2px;
+    display: inline-block;
+    text-decoration: none;
+}
+ 
+.crunchify-link:hover, .crunchify-link:active {
+    color: white;
+}
+ 
+.crunchify-twitter {
+    background: #00aced;
+}
+ 
+.crunchify-twitter:hover, .crunchify-twitter:active {
+    background: #0084b4;
+}
+ 
+.crunchify-facebook {
+    background: #3B5997;
+}
+ 
+.crunchify-facebook:hover, .crunchify-facebook:active {
+    background: #2d4372;
+}
+ 
+.crunchify-google {
+    background: #D64937;
+}
+ 
+.crunchify-google:hover, .crunchify-google:active {
+    background: #b53525;
+}
+ 
+.crunchify-buffer {
+    background: #444;
+}
+ 
+.crunchify-buffer:hover, .crunchify-buffer:active {
+    background: #222;
+}
+ 
+.crunchify-pinterest {
+    background: #bd081c;
+}
+ 
+.crunchify-pinterest:hover, .crunchify-pinterest:active {
+    background: #bd081c;
+}
+ 
+.crunchify-linkedin {
+    background: #0074A1;
+}
+ 
+.crunchify-linkedin:hover, .crunchify-linkedin:active {
+    background: #006288;
+}
+
+.crunchify-social {
+    margin: 18px auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.8rem;
+}
