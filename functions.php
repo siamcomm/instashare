@@ -6,7 +6,7 @@ function instashare_buttons($content) {
 		$instashareUrl = get_permalink();
 		$instashareTitle = str_replace( ' ', '%20', get_the_title() );
 		if (has_post_thumbnail( $post->ID ) ) {
-			$instashareThumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' )
+			$instashareThumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
 		} else {
 			$instashareThumb = null;
 		}
