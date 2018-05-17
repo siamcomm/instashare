@@ -1,2 +1,3 @@
-# instashare
+# InstaShare
+
 WordPress Social Sharing Script
