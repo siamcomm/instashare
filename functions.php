@@ -31,8 +31,7 @@ function instashare_buttons($content) {
 		$instashare .= '<a class="instashare-link instashare-buffer" href="'.$bufferUrl.'" target="_blank">Buffer</a>';
 		$instashare .= '</div>';
 		
-		// If you want the sharing buttons on top, reverse the variables $instashare . $content;
-		$content .= $content . $instashare;
+		$content .= $instashare;
 		
 		return $content;
 	} else {
