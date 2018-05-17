@@ -14,7 +14,7 @@ function instashare_buttons($content) {
 		// Social Sharing URLs
 		$twitterUrl = 	'http://twitter.com/share?text=' . $instashareTitle . '&amp;url=' . $instashareUrl;
 		$facebookUrl = 	'https://www.facebook.com/sharer.php?u=' . $instashareUrl . '&amp;t=' . $instashareTitle;
-		$linkedInUrl = 	'https://www.linkedin.com/shareArticle?mini=true&url=' . $instashareUrl . '&amp;title=' . $instashareTitle;
+		$linkedInUrl = 	'https://www.linkedin.com/shareArticle?mini=true&amp;url=' . $instashareUrl . '&amp;title=' . $instashareTitle;
 		$googleUrl = 	'https://plus.google.com/share?url=' . $instashareUrl;
 		$pinterestUrl = 'https://pinterest.com/pin/create/button/?url=' . $instashareUrl . '&amp;media=' . $instashareThumb[0] . '&amp;description=' . $instashareTitle;
 		
